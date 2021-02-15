@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>LectBoard</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="/static/script.js"></script>
+</head>
+
+<body onload="updateImage()">
+    <div class="main_content">
+        <img onclick="rot180()" src="/static/result.png" alt="Drawn whiteboard" id="whiteboard">
+    </div>
+    <div class="toolbar">
+        <button onclick="rot180()" class="buttons">Rotate whiteboard 180 degrees</button>
+        <button onclick="userAction()" class="buttons">Get local IP-adress</button>
+    </div>
+</body>
+
+</html>
