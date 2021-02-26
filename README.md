@@ -20,3 +20,7 @@ Draw on your android device and see the results on your windows pc!
 * Install the _LectBoard_ app on your android device
 * Fill in the local IP-address obtained from your PC
 * Start drawing!
+
+## Screenshots
+
+![The homepage](./static/homepage.png)
