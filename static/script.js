@@ -1,5 +1,10 @@
 var degree = 180;
-const timeout = 500;
+const timeout = 200;
+
+window.onload = function updateImage() {
+    document.getElementById("whiteboard").src = "/static/result.png#t=" + new Date().getTime();
+    setTimeout(updateImage, timeout);
+}
 
 function rot180() {
     document.getElementById("whiteboard").style.transform = "rotate(" + degree + "deg)";
