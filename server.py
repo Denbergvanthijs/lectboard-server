@@ -18,6 +18,7 @@ def show_index():
 @app.route("/image", methods=["POST"])
 def post_image():
     Image.open(BytesIO(request.data)).save("./static/result.png")
+    return ("", 204)
 
 
 @app.after_request
